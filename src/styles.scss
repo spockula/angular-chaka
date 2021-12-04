@@ -1,1 +1,218 @@
+
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat.core();
+
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$angular-chaka-primary: mat.define-palette(mat.$indigo-palette);
+$angular-chaka-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+// The warn palette is optional (defaults to red).
+$angular-chaka-warn: mat.define-palette(mat.$red-palette);
+
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$angular-chaka-theme: mat.define-light-theme((
+  color: (
+    primary: $angular-chaka-primary,
+    accent: $angular-chaka-accent,
+    warn: $angular-chaka-warn,
+  )
+));
+
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include mat.all-component-themes($angular-chaka-theme);
+
 /* You can add global styles to this file, and also import other style files */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+    font-family: "Raleway";
+    src: local("Raleway"), url(./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf) format("truetype");
+}
+
+   
+html, body { height: 100%; }
+body { margin: 0; font-family: "Raleway", "Helvetica Neue", sans-serif; }
+
+
+.create-account-form-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 360px;
+    height: 544px;
+    left: 540px;
+    top: 0px;
+}
+
+.tiny-header {
+    left: 10%;
+    right: 37.78%;
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: #0B2253;
+}
+
+
+.slim-header {
+    left: 10%;
+    right: 37.78%;
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 52px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: black;
+}
+
+
+.sub-header {
+    left: 10%;
+    right: 37.78%;
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 42px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: black;
+}
+
+.sec-text {
+    color: gray;
+}
+
+.price-text {
+    color: black;
+    font-weight: 600 !important;
+    font-size: 28px !important;
+}
+
+.price-change {
+    font-weight: 400 !important;
+    font-size: 17px !important;
+}
+
+.mid-header {
+    left: 10%;
+    right: 37.78%;
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: bold;
+    font-weight: 700 !important;
+    font-size: 26px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: black;
+}
+
+.tiny-text {
+    left: 0%;
+    right: 44.17%;
+    top: 7.35%;
+    bottom: 88.24%;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6B758B;
+}
+
+.input-text {
+    left: 0%;
+    right: 0%;
+    top: 33.33%;
+    bottom: 0%;
+    height: 48px;
+    width: 90%;
+    float: left;
+    background: #F7F9FB;
+    border-radius: 4px;
+}
+
+.input-label {
+    margin-bottom: 6px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.117188px;
+    color: #6B758B;
+}
+
+.input-span {
+    width: 360px;
+    height: 16px;
+    left: 0px;
+    top: 80px;
+
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: #A2ABB8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+.account-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px !important;
+    position: static;
+    width: 360px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background-color: #07379B !important;
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.input-cont {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+  
+.input-cont svg {
+    position: absolute;
+    right: 5px;
+    top: 40%;
+}

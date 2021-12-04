@@ -1,0 +1,94 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.alt-text {
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    color: #6B758B;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 7px;
+}
+
+.alt-text-login {
+    width: 44px;
+    height: 24px;
+    left: 184px;
+    top: 0px;
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.4px;
+    /* Stanbic blue */
+    color: #07379B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 7px;
+}
+
+.big-image {
+    height: 20vh;
+    width: 53vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/assets/images/healthcare.jpeg");
+}
+
+.big-card {
+    height: 20vh;
+    width: 53vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/assets/images/healthcare.jpeg");
+}
+
+.bg-performance {
+    height: 20vh;
+    width: 41vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+.card-text {
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: bold;
+    font-weight: 700 !important;
+    font-size: 26px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+

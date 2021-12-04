@@ -1,0 +1,90 @@
+[   
+    {
+        "sectorName": "Health Care",
+        "gains": 0.46,
+        "cardSize": "normal",
+        "gainDirection": 0,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Communication Services",
+        "gains": 0,
+        "cardSize": "normal",
+        "gainDirection": 2,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Utilities",
+        "gains": 0.07,
+        "cardSize": "normal",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Consumer Discretionary",
+        "gains": 0.07,
+        "cardSize": "normal",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Financials",
+        "gains": 0.33,
+        "cardSize": "normal",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Customer Staples",
+        "gains": 0.38,
+        "cardSize": "normal",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Materials",
+        "gains": 0.42,
+        "cardSize": "normal",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Technology",
+        "gains": 0.51,
+        "cardSize": "normal",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Real Estate",
+        "gains": 0.55,
+        "cardSize": "large",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Energy",
+        "gains": 0.55,
+        "cardSize": "large",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    },
+    {
+        "sectorName": "Industrials",
+        "gains": 0.78,
+        "cardSize": "large",
+        "gainDirection": 1,
+        "image": "/assets/images/healthcare.jpeg"
+
+    }
+]
