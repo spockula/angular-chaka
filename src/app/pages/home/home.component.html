@@ -22,8 +22,11 @@
             <p class=" price-text float-right mt-4 mr-4">
                 1.39
             </p>
-            <p class="price-change ml-6 float-right mb-9 mr-4" style="color: green;">
-                + 57.20%
+            <p *ngIf="stock.gainDirection === 0" class="price-change ml-10 float-right mb-9 mr-4" style="color: green; margin-left: 2.5rem;">
+                + {{stock.gains}} %
+            </p>
+            <p *ngIf="stock.gainDirection === 1" class="price-change ml-10 float-right mb-9 mr-4" style="color: red; margin-left: 2.5rem;">
+                - {{stock.gains}}%
             </p>
         </div>
     </div>
