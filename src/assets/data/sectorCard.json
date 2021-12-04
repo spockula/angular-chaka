@@ -1,0 +1,103 @@
+[   
+    {
+        "stockName": "BNGO",
+        "gains": 57.20,
+        "price": 1.39,
+        "gainDirection": 0,
+        "altCompany": "Bionano",
+        "altCompany2": ""
+
+    },
+     
+    {
+        "stockName": "AAPL",
+        "gains": 0.98,
+        "price": 135.355,
+        "gainDirection": 1,
+        "altCompany": "Apple Inc",
+        "altCompany2": ""
+
+    },
+     
+    {
+        "stockName": "INTC",
+        "gains": 5.15,
+        "price": 49.495,
+        "gainDirection": 0,
+        "altCompany": "Intel Corp",
+        "altCompany2": ""
+
+    },
+     
+    {
+        "stockName": "GEVO",
+        "gains": 2.49,
+        "price": 4.70,
+        "gainDirection": 1,
+        "altCompany": "Gevo Inc",
+        "altCompany2": ""
+
+    },
+     
+    {
+        "stockName": "FCEL",
+        "gains": 7.41,
+        "price": 10.69,
+        "gainDirection": 1,
+        "altCompany": "Fuelcell Energy Inc",
+        "altCompany2": ""
+
+    },
+     
+    {
+        "stockName": "SNAP",
+        "gains": 5.02,
+        "price": 50.68,
+        "gainDirection": 0,
+        "altCompany": "Snap inc - Class A",
+        "altCompany2": ""
+
+    },
+     
+    {
+        "stockName": "AAL",
+        "gains": 1.59,
+        "price": 15.805,
+        "gainDirection": 1,
+        "altCompany": "American Airlines Inc",
+        "altCompany2": ""
+
+    },
+    
+    {
+        "stockName": "OCGN",
+        "gains": 7.56,
+        "price": 2.08,
+        "gainDirection": 1,
+        "altCompany": "Ocugen Group",
+        "altCompany2": ""
+
+    },
+
+    {
+        "stockName": "PLTR",
+        "gains": 3.69,
+        "price": 24.685,
+        "gainDirection": 1,
+        "altCompany": "Palantir Inc - Class A",
+        "altCompany2": ""
+
+    },
+    
+    
+     
+    {
+        "stockName": "GE",
+        "gains": 0.47,
+        "price": 10.59,
+        "gainDirection": 1,
+        "altCompany": "General Electric Co.",
+        "altCompany2": ""
+
+    }
+]

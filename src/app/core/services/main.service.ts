@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { ICardInfo } from 'src/app/pages/home/home.interfaces';
+import { ICardInfo, IStockCardInfo, IStockNews } from 'src/app/pages/home/home.interfaces';
 
 @Injectable({
   providedIn: 'root'
@@ -61,5 +61,13 @@ export class MainService {
 
   getSectorJson() {
     return this.httpClient.get <ICardInfo []>('./assets/data/sectorData.json')
+  }
+
+  getStockInfo() {
+    return this.httpClient.get <IStockCardInfo []>('./assets/data/sectorCard.json')
+  }
+
+  getStockNews() {
+    return this.httpClient.get <IStockNews[]>('./assets/data/stockNews.json')
   }
 }

@@ -1,6 +1,6 @@
 import { MainService } from './../../core/services/main.service';
 import { Component, OnInit } from '@angular/core';
-import { ICardInfo } from './home.interfaces';
+import { ICardInfo, IStockCardInfo } from './home.interfaces';
 
 
 @Component({
@@ -14,15 +14,26 @@ export class HomeComponent implements OnInit {
     "cardSize": "",
     "gainDirection": 0,
     "image": ""
-
-}]
+  }]
+  sectorCard: IStockCardInfo [] = [
+    {
+      "stockName": "",
+      "gains": 0,
+      "price": 0,
+      "gainDirection": 0,
+      "altCompany": "",
+      "altCompany2": ""
+    }
+  ]
 
   constructor(public mainService: MainService) { }
 
   ngOnInit(): void {
     this.mainService.getSectorJson().subscribe((response: ICardInfo []) => {
       this.sectorData = response;
-      console.log('se', this.sectorData)
+    });
+    this.mainService.getStockInfo().subscribe((response: IStockCardInfo []) => {
+      this.sectorCard = response;
     });
   }
 

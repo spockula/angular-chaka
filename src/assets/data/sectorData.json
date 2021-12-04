@@ -9,7 +9,7 @@
     },
     {
         "sectorName": "Communication Services",
-        "gains": 0,
+        "gains": 0.00,
         "cardSize": "normal",
         "gainDirection": 2,
         "image": "/assets/images/healthcare.jpeg"

@@ -1,0 +1,94 @@
+.big-image {
+    height: 20vh;
+    width: 53vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/assets/images/healthcare.jpeg");
+}
+
+.big-card {
+    height: 40vh;
+    width: 52vh;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/assets/images/healthcare.jpeg");
+}
+
+
+.slim-header {
+    left: 10%;
+    right: 37.78%;
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 42px !important;
+    line-height: 42px;
+    letter-spacing: -0.01em;
+    color: black;
+}
+
+.bg-performance {
+    height: 20vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.less-header {
+    left: 10%;
+    right: 37.78%;
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: bold;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: gray;
+}
+
+.time-header {
+    left: 10%;
+    right: 37.78%;
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 100 !important;
+    font-size: 17px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: gray;
+}
+
+
+
+.card-text {
+    top: 0%;
+    bottom: 94.12%;
+    font-family: "Raleway";
+    font-style: bold;
+    font-weight: 700 !important;
+    font-size: 26px !important;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
