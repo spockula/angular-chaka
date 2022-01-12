@@ -4,7 +4,7 @@
         "gains": 57.20,
         "price": 1.39,
         "gainDirection": 0,
-        "altCompany": "Bionano",
+        "altCompany": "Bionano Genomics Inc",
         "altCompany2": ""
 
     },
@@ -64,7 +64,7 @@
         "gains": 1.59,
         "price": 15.805,
         "gainDirection": 1,
-        "altCompany": "American Airlines",
+        "altCompany": "American Airlines Group",
         "altCompany2": ""
 
     },
@@ -84,7 +84,7 @@
         "gains": 3.69,
         "price": 24.685,
         "gainDirection": 1,
-        "altCompany": "Palantir Inc",
+        "altCompany": "Palantir Technologies Inc",
         "altCompany2": ""
 
     },

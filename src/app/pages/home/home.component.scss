@@ -40,6 +40,8 @@
     margin: 0px 7px;
 }
 
+
+
 .big-image {
     height: 20vh;
     width: 53vh;
@@ -64,6 +66,37 @@
     position: relative;
     background-size: cover;
     background-position: 50% 50%;
+}
+
+
+@media (max-width: 680px) {
+    .bg-performance {
+        height: 27vh;
+        width: 43vh;
+        position: relative;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+
+    .big-image {
+        height: 27vh;
+        width: 45vh;
+        position: relative;
+        margin-top: 2rem;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url("/assets/images/healthcare.jpeg");
+    }
+
+    .big-card {
+        height: 27vh;
+        width: 43vh;
+        position: relative;
+        background-size: cover;
+        background-position: 50% 50%;
+        background-image: url("/assets/images/healthcare.jpeg");
+    }
+    
 }
 
 
